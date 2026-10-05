@@ -1,0 +1,5 @@
+Description=crmtogether.com - Display Stage bar for Opportunities
+Directory=oppo_bar
+Version=2025
+multipleinstalls=y
+errorhandling=strict

@@ -1,0 +1,40 @@
+.oppoInnerBarFl {
+  height: 28px;
+  display: inline-block;
+  position: relative;
+  line-height: 25px;
+  text-align: -webkit-center;
+  top: 0px;
+  margin-left: -6px;
+  clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 5% 50%, 0 0);
+  background-color: white;
+  color: rgb(114,119,133);
+}
+
+.oppoInnerPrevFl {
+  background-color: rgb(75, 202, 132);
+  color: rgb(75, 202, 132);
+}
+.oppoInnerPrevFl:hover { 
+  background-color: rgb(9, 130, 73);
+  color: white;
+}
+.oppoInnerCurrFl {
+  background-color: rgb(3, 118, 229);
+  color: white;
+}
+.oppoInnerNextFl {
+  background-color: white;
+  color: rgb(114,119,133);
+}
+
+.firstBarFl {
+  clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 0 50%, 0 0);
+  border-top-left-radius: 25px; 
+  border-bottom-left-radius: 25px;
+}
+.lastBarFl {
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+  border-top-right-radius: 25px; 
+  border-bottom-right-radius: 25px;
+}
